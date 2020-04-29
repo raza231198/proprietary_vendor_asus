@@ -18,7 +18,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/X00P
 
 PRODUCT_COPY_FILES += \
+    vendor/asus/X00P/proprietary/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
+    vendor/asus/X00P/proprietary/lib64/libarcsoft_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr.so \
+    vendor/asus/X00P/proprietary/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_night_shot.so \
+    vendor/asus/X00P/proprietary/lib64/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_hq_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hq_beautyshot.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_hq_hdr_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hq_hdr_shot.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_hq_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hq_night_shot.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_hq_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hq_panorama.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_imageutil.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_snapcammosaic.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_snapcammosaic.so \
+    vendor/asus/X00P/proprietary/lib64/libjni_snapcamtinyplanet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_snapcamtinyplanet.so \
+    vendor/asus/X00P/proprietary/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/asus/X00P/proprietary/lib64/libseemore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libseemore.so \
+    vendor/asus/X00P/proprietary/lib64/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtensorflow_inference.so \
     vendor/asus/X00P/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/X00P/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/asus/X00P/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
