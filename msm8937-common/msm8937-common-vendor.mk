@@ -596,10 +596,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libbtconfigstore \
-    libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
+    libMpeg4SwEncoder \
+    libOmxSwVdec \
+    libOmxSwVencMpeg4 \
+    libgpustats \
     libloc_api_v02 \
     WfdService \
     CneApp \
